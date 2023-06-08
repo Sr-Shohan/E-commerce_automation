@@ -11,7 +11,7 @@ from locator.login_form_locators import HomepageLocators
 from locator.Register_login_form_locator import RegisterLoginForm
 
 
-def test_login(driver):
+def test_home_to_cart_flow(driver):
     # Create a new instance of the Home page
     home_page = homepage(driver)
     register_login = RegisterLogin(driver)
